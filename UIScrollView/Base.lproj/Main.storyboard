@@ -35,17 +35,20 @@
                                 </constraints>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dOh-13-FJs">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="77.5" y="0.0" width="220" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="667" id="2t2-QY-daZ"/>
+                                    <constraint firstAttribute="width" constant="220" id="lsj-xX-eHi"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="U8c-qE-HE3" secondAttribute="bottom" id="6Y7-r8-TxP"/>
                             <constraint firstItem="0bT-cx-m4X" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8rl-YD-Qsc"/>
-                            <constraint firstAttribute="trailing" secondItem="dOh-13-FJs" secondAttribute="trailing" id="Mze-pX-E5B"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="0bT-cx-m4X" secondAttribute="bottom" id="VQQ-2g-LAg"/>
-                            <constraint firstItem="dOh-13-FJs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bWK-Yo-hWM"/>
                             <constraint firstItem="dOh-13-FJs" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="fhg-08-uG2"/>
+                            <constraint firstItem="dOh-13-FJs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fv4-ye-3BF"/>
                             <constraint firstItem="0bT-cx-m4X" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="gjN-KN-a9C"/>
                             <constraint firstAttribute="trailing" secondItem="U8c-qE-HE3" secondAttribute="trailing" id="jnQ-6b-knl"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dOh-13-FJs" secondAttribute="bottom" id="kXY-bQ-Mpd"/>
@@ -61,6 +64,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="48.125937031484263"/>
         </scene>
     </scenes>
     <resources>
